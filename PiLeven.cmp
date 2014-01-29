@@ -1,0 +1,304 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 29 Jan 2014 15:30:39 EST
+
+BeginCmp
+TimeStamp = /52D8F74F;
+Reference = C1;
+ValeurCmp = 22uF 25V;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D9B7A7;
+Reference = C2;
+ValeurCmp = 100nF 25V;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D952E1;
+Reference = C3;
+ValeurCmp = 470nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D94C0A;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D91537;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E890F5;
+Reference = C6;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D93FDF;
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D9CB77;
+Reference = C8;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A09BE3;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A091F0;
+Reference = C10;
+ValeurCmp = 22pF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A091E1;
+Reference = C11;
+ValeurCmp = 22pF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A0A781;
+Reference = D1;
+ValeurCmp = D13/RED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A06795;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A0054A;
+Reference = J1;
+ValeurCmp = RASPBERRY_PI_P1;
+IdModule  = RASPBERRY_PI_P1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D96AA5;
+Reference = JP1;
+ValeurCmp = M06;
+IdModule  = 1X06;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D917B6;
+Reference = L1;
+ValeurCmp = 3.3uH;
+IdModule  = SRN8040_IND;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D89977;
+Reference = Q1;
+ValeurCmp = RJU003N03;
+IdModule  = SOT323_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D8AB1E;
+Reference = Q2;
+ValeurCmp = RJU003N03;
+IdModule  = SOT323_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D8B5C1;
+Reference = Q3;
+ValeurCmp = RJU003N03;
+IdModule  = SOT323_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D8B5EA;
+Reference = Q4;
+ValeurCmp = RJU003N03;
+IdModule  = SOT323_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D9937D;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A055C4;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A055D3;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA061C;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = RES_CAY16;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D9354C;
+Reference = R5;
+ValeurCmp = 124K 1%;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D9355B;
+Reference = R6;
+ValeurCmp = 22.1K 1%;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DA066E;
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = RES_CAY16;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D9FDF7;
+Reference = R8;
+ValeurCmp = 500;
+IdModule  = RES_CAY16;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A0A9FC;
+Reference = R9;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A09357;
+Reference = R10;
+ValeurCmp = 1M;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D8E00D;
+Reference = REG1;
+ValeurCmp = TPS54329;
+IdModule  = SO8_WITH_EP;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E88285;
+Reference = REG2;
+ValeurCmp = LP2985-33;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A00849;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A015CA;
+Reference = SJ1;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A01FB8;
+Reference = SJ2;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A01FBE;
+Reference = SJ3;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A015AB;
+Reference = SJ4;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A015B8;
+Reference = SJ5;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A05842;
+Reference = SW1;
+ValeurCmp = SW_PUSHBUTTON;
+IdModule  = TACTILE_SWITCH_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D8F0A5;
+Reference = U1;
+ValeurCmp = POWERJACK;
+IdModule  = POWER_JACK_PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A055A6;
+Reference = U2;
+ValeurCmp = RJU003N03;
+IdModule  = SOT323_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A0A697;
+Reference = U3;
+ValeurCmp = 2N7002;
+IdModule  = SOT23_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A091FF;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = HC49-US;
+EndCmp
+
+EndListe
