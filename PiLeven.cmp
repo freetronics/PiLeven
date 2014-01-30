@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 30 Jan 2014 10:43:52 EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 30 Jan 2014 15:19:07 EST
 
 BeginCmp
 TimeStamp = /52D8F74F;
@@ -81,6 +81,27 @@ BeginCmp
 TimeStamp = /52A0A781;
 Reference = D1;
 ValeurCmp = D13/RED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9D5B7;
+Reference = D2;
+ValeurCmp = TX/YEL;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9D5DA;
+Reference = D3;
+ValeurCmp = RX/GRN;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9D5FD;
+Reference = D4;
+ValeurCmp = POW/BLUE;
 IdModule  = LED-0603;
 EndCmp
 
@@ -197,10 +218,10 @@ IdModule  = RES_CAY16;
 EndCmp
 
 BeginCmp
-TimeStamp = /52A0A9FC;
+TimeStamp = /52E9D737;
 Reference = R9;
 ValeurCmp = 1K;
-IdModule  = SM0603;
+IdModule  = RES_CAY16;
 EndCmp
 
 BeginCmp
@@ -290,6 +311,20 @@ EndCmp
 BeginCmp
 TimeStamp = /52A0A697;
 Reference = U3;
+ValeurCmp = 2N7002;
+IdModule  = SOT23_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9D5B1;
+Reference = U4;
+ValeurCmp = 2N7002;
+IdModule  = SOT23_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9D5D4;
+Reference = U5;
 ValeurCmp = 2N7002;
 IdModule  = SOT23_MOSFET;
 EndCmp
