@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 30 Jan 2014 15:19:07 EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 04 Feb 2014 08:56:10 EST
 
 BeginCmp
 TimeStamp = /52D8F74F;
@@ -103,6 +103,13 @@ TimeStamp = /52E9D5FD;
 Reference = D4;
 ValeurCmp = POW/BLUE;
 IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F0104D;
+Reference = D5;
+ValeurCmp = SK42BL;
+IdModule  = SMB-DIODE;
 EndCmp
 
 BeginCmp
