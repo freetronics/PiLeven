@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 04 Feb 2014 08:56:10 EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 06 Feb 2014 12:53:03 EST
 
 BeginCmp
 TimeStamp = /52D8F74F;
@@ -106,13 +106,6 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F0104D;
-Reference = D5;
-ValeurCmp = SK42BL;
-IdModule  = SMB-DIODE;
-EndCmp
-
-BeginCmp
 TimeStamp = /52A06795;
 Reference = IC1;
 ValeurCmp = ATMEGA328P-A;
@@ -166,6 +159,13 @@ TimeStamp = /52D8B5EA;
 Reference = Q4;
 ValeurCmp = RJU003N03;
 IdModule  = SOT323_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F2EC78;
+Reference = Q5;
+ValeurCmp = AO3407A;
+IdModule  = SOT23_MOSFET;
 EndCmp
 
 BeginCmp
