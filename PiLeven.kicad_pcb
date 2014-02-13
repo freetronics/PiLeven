@@ -3,9 +3,9 @@
   (general
     (links 160)
     (no_connects 0)
-    (area 160.153 80.79 265.153001 162.540001)
+    (area 163.202434 94.04 265.153001 154.559001)
     (thickness 1.6)
-    (drawings 104)
+    (drawings 103)
     (tracks 1016)
     (zones 0)
     (modules 138)
@@ -20,8 +20,8 @@
     (17 F.Adhes user)
     (18 B.Paste user)
     (19 F.Paste user)
-    (20 B.SilkS user hide)
-    (21 F.SilkS user hide)
+    (20 B.SilkS user)
+    (21 F.SilkS user)
     (22 B.Mask user)
     (23 F.Mask user)
     (24 Dwgs.User user)
@@ -67,7 +67,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFFFF)
+    (visible_elements FFFFFFB7)
     (pcbplotparams
       (layerselection 284983297)
       (usegerberextensions true)
@@ -2405,13 +2405,13 @@
     )
   )
 
-  (module RASPBERRY_PI_P1   locked (layer F.Cu) (tedit 52C4E033) (tstamp 52E06C3B)
+  (module RASPBERRY_PI_P1   locked (layer F.Cu) (tedit 52FC1B39) (tstamp 52E06C3B)
     (at 260.653 147.54 270)
     (path /52A0054A)
-    (fp_text reference J1 (at -45.5 86 270) (layer F.SilkS)
+    (fp_text reference J1 (at -46.448 91.1715 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value RASPBERRY_PI_P1 (at -50 88 270) (layer F.SilkS)
+    (fp_text value RASPBERRY_PI_P1 (at -40.5425 92.5685 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -11.9915 71.0315) (end -28.4915 71.0315) (layer Cmts.User) (width 0.15))
@@ -2590,14 +2590,14 @@
     )
   )
 
-  (module ARDUINO_SHIELD (layer F.Cu) (tedit 52E06D41) (tstamp 52E06EF6)
+  (module ARDUINO_SHIELD (layer F.Cu) (tedit 52FC1B21) (tstamp 52E06EF6)
     (at 164.153 149.54)
     (descr http://www.thingiverse.com/thing:9630)
     (path /52A00849)
-    (fp_text reference SHIELD1 (at 5.715 -57.15) (layer F.SilkS)
+    (fp_text reference SHIELD1 (at 5.3285 -51.4325) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (fp_text value ARDUINO_SHIELD (at 10.16 -54.61) (layer F.SilkS) hide
+    (fp_text value ARDUINO_SHIELD (at 1.7725 -40.193 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_line (start 66.04 -40.64) (end 66.04 -52.07) (layer Cmts.User) (width 0.381))
@@ -3727,14 +3727,14 @@
     )
   )
 
-  (module SOT23_MOSFET (layer F.Cu) (tedit 51FA089B) (tstamp 52F2EB1E)
+  (module SOT23_MOSFET (layer F.Cu) (tedit 52FC1BB8) (tstamp 52F2EB1E)
     (at 243.5 106)
     (path /52F2EC78)
     (attr smd)
-    (fp_text reference Q5 (at -0.025 -0.3) (layer F.SilkS)
-      (effects (font (size 0.3 0.3) (thickness 0.075)))
+    (fp_text reference Q5 (at -1.184 -1.0345) (layer F.SilkS)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
-    (fp_text value AO3407A (at 0.025 0.275) (layer F.SilkS)
+    (fp_text value AO3407A (at 0.0225 1.95) (layer F.SilkS)
       (effects (font (size 0.2 0.2) (thickness 0.05)))
     )
     (fp_line (start -0.20066 0.65024) (end 0.20066 0.65024) (layer F.SilkS) (width 0.20066))
@@ -3767,9 +3767,6 @@
     (effects (font (size 1 1) (thickness 0.2)) (justify left mirror))
   )
   (gr_text PiLeven (at 244.75 118.07) (layer B.SilkS)
-    (effects (font (size 2 2) (thickness 0.5)) (justify mirror))
-  )
-  (gr_text PiLeven (at 259.08 82.94) (layer B.SilkS)
     (effects (font (size 2 2) (thickness 0.5)) (justify mirror))
   )
   (gr_text "IN:\n7 -\n18V" (at 258.49 109.95) (layer F.SilkS)
@@ -5149,11 +5146,12 @@
     (fill (arc_segments 16) (thermal_gap 0.2) (thermal_bridge_width 1.5))
     (polygon
       (pts
-        (xy 258.7 144.3) (xy 258.7 147.9) (xy 258.7 148.6) (xy 256.7 148.6) (xy 256.7 155.75)
-        (xy 160.653 162.04) (xy 160.153 94.54) (xy 264.153 94.04) (xy 264.153 106.54) (xy 257.153 106.54)
-        (xy 257.153 113.04) (xy 251.153 113.04) (xy 251.153 109.54) (xy 238.653 109.54) (xy 238.653 122.04)
-        (xy 247.653 122.04) (xy 249.653 120.04) (xy 260.653 120.04) (xy 260.653 124.04) (xy 252.953 124.04)
-        (xy 252.876201 132.411084) (xy 252.871645 132.407761) (xy 252.953 139.54) (xy 262.653 139.54) (xy 262.7 144.3)
+        (xy 258.7 144.3) (xy 258.7 147.9) (xy 258.7 148.6) (xy 256.7 148.6) (xy 256.7305 154.559)
+        (xy 188.087 154.051) (xy 188.4045 118.3005) (xy 176.7205 118.237) (xy 176.657 94.488) (xy 264.153 94.04)
+        (xy 264.153 106.54) (xy 257.153 106.54) (xy 257.153 113.04) (xy 251.153 113.04) (xy 251.153 109.54)
+        (xy 238.653 109.54) (xy 238.653 122.04) (xy 247.653 122.04) (xy 249.653 120.04) (xy 260.653 120.04)
+        (xy 260.653 124.04) (xy 252.953 124.04) (xy 252.876201 132.411084) (xy 252.871645 132.407761) (xy 252.953 139.54)
+        (xy 262.653 139.54) (xy 262.7 144.3)
       )
     )
     (filled_polygon
@@ -5235,8 +5233,8 @@
     )
     (filled_polygon
       (pts
-        (xy 257.163801 148.5) (xy 256.6 148.5) (xy 256.6 149.67583) (xy 256.589042 149.664998) (xy 256.174041 150.08)
-        (xy 256.589042 150.495002) (xy 256.6 150.484169) (xy 256.6 151.05) (xy 255.988002 151.05) (xy 255.988002 149.063958)
+        (xy 257.163801 148.5) (xy 256.599487 148.5) (xy 256.605533 149.6813) (xy 256.589042 149.664998) (xy 256.174041 150.08)
+        (xy 256.589042 150.495002) (xy 256.609593 150.474685) (xy 256.612538 151.05) (xy 255.988002 151.05) (xy 255.988002 149.063958)
         (xy 255.871496 148.946103) (xy 255.414851 148.918186) (xy 255.274504 148.946103) (xy 255.157998 149.063958) (xy 255.573 149.478959)
         (xy 255.988002 149.063958) (xy 255.988002 151.05) (xy 255.941959 151.05) (xy 255.573 150.681041) (xy 255.20404 151.05)
         (xy 254.971959 151.05) (xy 254.971959 150.08) (xy 254.556958 149.664998) (xy 254.439103 149.781504) (xy 254.411186 150.238149)
@@ -5904,10 +5902,10 @@
     (fill (arc_segments 16) (thermal_gap 0.2) (thermal_bridge_width 1.5))
     (polygon
       (pts
-        (xy 262.653 162.54) (xy 160.653 162.04) (xy 160.153 94.54) (xy 265.153 94.04) (xy 265.153 106.54)
-        (xy 253.653 106.54) (xy 252.153 105.04) (xy 252.153 101.04) (xy 241.2 101.1) (xy 241.2 106.4)
-        (xy 243.1 106.4) (xy 243.1 109.5) (xy 234.153 109.54) (xy 234.153 131.54) (xy 245.153 131.54)
-        (xy 245.153 141.54) (xy 256.153 141.54) (xy 256.153 154.04) (xy 262.653 154.04)
+        (xy 188.087 154.051) (xy 188.4045 118.3005) (xy 176.7205 118.237) (xy 176.657 94.488) (xy 265.153 94.04)
+        (xy 265.153 106.54) (xy 253.653 106.54) (xy 252.153 105.04) (xy 252.153 101.04) (xy 241.2 101.1)
+        (xy 241.2 106.4) (xy 243.1 106.4) (xy 243.1 109.5) (xy 234.153 109.54) (xy 234.153 131.54)
+        (xy 245.153 131.54) (xy 245.153 141.54) (xy 256.153 141.54) (xy 256.153 154.04)
       )
     )
     (filled_polygon
@@ -6732,6 +6730,21 @@
         (xy 246.566157 103.89) (xy 248.30478 103.89) (xy 248.30478 105.19) (xy 246.566157 105.19) (xy 246.612989 105.5)
         (xy 241.7 105.5) (xy 241.7 101.698773) (xy 249.673715 101.600332) (xy 249.936533 101.752489) (xy 249.957627 101.784059)
         (xy 250.84911 102.379729) (xy 251.109361 102.431496) (xy 251.501903 102.658757) (xy 251.596611 105.5)
+      )
+    )
+  )
+  (zone (net 35) (net_name /SW) (layer F.Cu) (tstamp 52FC1663) (hatch edge 0.508)
+    (connect_pads thru_hole_only (clearance 0.4))
+    (min_thickness 0.2)
+    (fill (arc_segments 16) (thermal_gap 0.2) (thermal_bridge_width 1.5))
+    (polygon
+      (pts
+        (xy 252.7935 117.9195) (xy 250.6345 117.9195) (xy 250.6345 113.792) (xy 252.7935 113.792)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 252.6935 117.8195) (xy 250.7345 117.8195) (xy 250.7345 113.892) (xy 252.6935 113.892) (xy 252.6935 117.8195)
       )
     )
   )
