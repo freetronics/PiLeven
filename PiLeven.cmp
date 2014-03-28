@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 06 Feb 2014 12:53:03 EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 26 Mar 2014 10:31:23 EST
 
 BeginCmp
 TimeStamp = /52D8F74F;
@@ -74,6 +74,27 @@ BeginCmp
 TimeStamp = /52A091E1;
 Reference = C11;
 ValeurCmp = 22pF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5326730A;
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5326C02E;
+Reference = C13;
+ValeurCmp = 100nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5326C659;
+Reference = C14;
+ValeurCmp = 100nF;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -169,6 +190,27 @@ IdModule  = SOT23_MOSFET;
 EndCmp
 
 BeginCmp
+TimeStamp = /532672B1;
+Reference = Q6;
+ValeurCmp = RJU003N03;
+IdModule  = SOT323_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /5326BFF7;
+Reference = Q7;
+ValeurCmp = FDN340P;
+IdModule  = SOT23_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /5326C653;
+Reference = Q8;
+ValeurCmp = FDN340P;
+IdModule  = SOT23_MOSFET;
+EndCmp
+
+BeginCmp
 TimeStamp = /52D9937D;
 Reference = R1;
 ValeurCmp = 10K;
@@ -176,7 +218,7 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52A055C4;
+TimeStamp = /532672DF;
 Reference = R2;
 ValeurCmp = 10K;
 IdModule  = SM0603;
@@ -239,6 +281,20 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /532672F1;
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53321CD2;
+Reference = R12;
+ValeurCmp = R0.5 1/8W;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /52D8E00D;
 Reference = REG1;
 ValeurCmp = TPS54329;
@@ -260,7 +316,7 @@ IdModule  = ARDUINO_SHIELD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52A015CA;
+TimeStamp = /5326906C;
 Reference = SJ1;
 ValeurCmp = SJ;
 IdModule  = SJ_SHORTED;
@@ -295,9 +351,23 @@ IdModule  = SJ_SHORTED;
 EndCmp
 
 BeginCmp
-TimeStamp = /52A05842;
+TimeStamp = /53268698;
+Reference = SJ6;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5326729D;
+Reference = SJ7;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /53212847;
 Reference = SW1;
-ValeurCmp = SW_PUSHBUTTON;
+ValeurCmp = PUSHBUTTON;
 IdModule  = TACTILE_SWITCH_SMD;
 EndCmp
 
@@ -309,29 +379,8 @@ IdModule  = POWER_JACK_PTH;
 EndCmp
 
 BeginCmp
-TimeStamp = /52A055A6;
-Reference = U2;
-ValeurCmp = RJU003N03;
-IdModule  = SOT323_MOSFET;
-EndCmp
-
-BeginCmp
 TimeStamp = /52A0A697;
 Reference = U3;
-ValeurCmp = 2N7002;
-IdModule  = SOT23_MOSFET;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E9D5B1;
-Reference = U4;
-ValeurCmp = 2N7002;
-IdModule  = SOT23_MOSFET;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E9D5D4;
-Reference = U5;
 ValeurCmp = 2N7002;
 IdModule  = SOT23_MOSFET;
 EndCmp
