@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 26 Mar 2014 10:31:23 EST
+Cmp-Mod V01 Created by PcbNew date = Thu 17 Apr 2014 16:32:21 EST
 
 BeginCmp
 TimeStamp = /52D8F74F;
@@ -17,14 +17,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52D952E1;
 Reference = C3;
-ValeurCmp = 470nF;
+ValeurCmp = 27pF;
 IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D94C0A;
 Reference = C4;
-ValeurCmp = 100nF;
+ValeurCmp = 8.2nF;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -87,13 +87,27 @@ EndCmp
 BeginCmp
 TimeStamp = /5326C02E;
 Reference = C13;
-ValeurCmp = 100nF;
+ValeurCmp = 1uF;
 IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /5326C659;
 Reference = C14;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534F675B;
+Reference = C15;
+ValeurCmp = 1nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53505597;
+Reference = C16;
 ValeurCmp = 100nF;
 IdModule  = SM0603_Capa;
 EndCmp
@@ -127,6 +141,13 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /534F479A;
+Reference = D5;
+ValeurCmp = MBRA340T3G;
+IdModule  = SMA-DIODE;
+EndCmp
+
+BeginCmp
 TimeStamp = /52A06795;
 Reference = IC1;
 ValeurCmp = ATMEGA328P-A;
@@ -150,8 +171,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52D917B6;
 Reference = L1;
-ValeurCmp = 3.3uH;
-IdModule  = SRN8040_IND;
+ValeurCmp = 8.2uH;
+IdModule  = SRP1040_IND;
 EndCmp
 
 BeginCmp
@@ -211,9 +232,30 @@ IdModule  = SOT23_MOSFET;
 EndCmp
 
 BeginCmp
+TimeStamp = /53501E4C;
+Reference = Q9;
+ValeurCmp = RJU003N03;
+IdModule  = SOT323_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /5350052A;
+Reference = Q10;
+ValeurCmp = RJU003N03;
+IdModule  = SOT323_MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A0A697;
+Reference = Q11;
+ValeurCmp = RJU003N03;
+IdModule  = SOT323_MOSFET;
+EndCmp
+
+BeginCmp
 TimeStamp = /52D9937D;
 Reference = R1;
-ValeurCmp = 10K;
+ValeurCmp = 75K 5%;
 IdModule  = SM0603;
 EndCmp
 
@@ -241,14 +283,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52D9354C;
 Reference = R5;
-ValeurCmp = 124K 1%;
+ValeurCmp = 10.5K 1%;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D9355B;
 Reference = R6;
-ValeurCmp = 22.1K 1%;
+ValeurCmp = 2K 1%;
 IdModule  = SM0603;
 EndCmp
 
@@ -295,9 +337,37 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52D8E00D;
+TimeStamp = /534F674C;
+Reference = R13;
+ValeurCmp = 47k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534FC8AD;
+Reference = R14;
+ValeurCmp = 330K 5%;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53501E52;
+Reference = R15;
+ValeurCmp = 220K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5350056D;
+Reference = R16;
+ValeurCmp = 220K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534F2FE8;
 Reference = REG1;
-ValeurCmp = TPS54329;
+ValeurCmp = TPS54331;
 IdModule  = SO8_WITH_EP;
 EndCmp
 
@@ -376,13 +446,6 @@ TimeStamp = /52D8F0A5;
 Reference = U1;
 ValeurCmp = POWERJACK;
 IdModule  = POWER_JACK_PTH;
-EndCmp
-
-BeginCmp
-TimeStamp = /52A0A697;
-Reference = U3;
-ValeurCmp = 2N7002;
-IdModule  = SOT23_MOSFET;
 EndCmp
 
 BeginCmp
