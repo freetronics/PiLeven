@@ -1,12 +1,7 @@
-update=Thu 13 Mar 2014 14:08:30 EST
-last_client=eeschema
+update=Mon 21 Apr 2014 15:11:43 EST
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=PiLeven.net
@@ -27,7 +22,6 @@ DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -44,6 +38,7 @@ LibName13=dip_sockets
 LibName14=pga_sockets
 LibName15=valves
 LibName16=library/freetronics_kicad_pcb_lib
+LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -84,3 +79,8 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

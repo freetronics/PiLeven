@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by PcbNew date = Thu 17 Apr 2014 16:32:21 EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Mon 21 Apr 2014 15:26:24 EST
 
 BeginCmp
 TimeStamp = /52D8F74F;
 Reference = C1;
 ValeurCmp = 22uF 25V;
-IdModule  = SM1206;
+IdModule  = 1210;
 EndCmp
 
 BeginCmp
@@ -46,14 +46,14 @@ BeginCmp
 TimeStamp = /52D93FDF;
 Reference = C7;
 ValeurCmp = 10uF;
-IdModule  = SM1206;
+IdModule  = 1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D9CB77;
 Reference = C8;
 ValeurCmp = 10uF;
-IdModule  = SM1206;
+IdModule  = CAP_ELECTRO_SMT_D;
 EndCmp
 
 BeginCmp

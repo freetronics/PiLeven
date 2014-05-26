@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "PiLeven"
-Date "17 apr 2014"
+Date "21 apr 2014"
 Rev ""
 Comp "tapr.org/ohl"
 Comment1 "Licensed under TAPR Open Hardware License"
@@ -772,7 +772,7 @@ L C C7
 U 1 1 52D93FDF
 P 5700 9750
 F 0 "C7" H 5700 9850 40  0000 L CNN
-F 1 "10uF" H 5706 9665 40  0000 L CNN
+F 1 "22uF Ceramic <2mΩ" H 5400 9600 40  0000 L CNN
 F 2 "~" H 5738 9600 30  0000 C CNN
 F 3 "~" H 5700 9750 60  0000 C CNN
 	1    5700 9750
@@ -847,7 +847,7 @@ L C C8
 U 1 1 52D9CB77
 P 5950 9750
 F 0 "C8" H 5950 9850 40  0000 L CNN
-F 1 "10uF" H 5956 9665 40  0000 L CNN
+F 1 "68uF 16V Electro <30mΩ" H 6000 9650 40  0000 L CNN
 F 2 "~" H 5988 9600 30  0000 C CNN
 F 3 "~" H 5950 9750 60  0000 C CNN
 	1    5950 9750
