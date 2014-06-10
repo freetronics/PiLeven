@@ -1,58 +1,58 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4893)-product   date = Wed 04 Jun 2014 13:18:14 EST
+Cmp-Mod V01 Created by Cvpcb (2014-06-03 BZR 4917)-product   date = Tue 10 Jun 2014 12:33:49 EST
 
 BeginCmp
 TimeStamp = /52D8F74F;
 Reference = C1;
 ValeurCmp = 22uF 25V;
-IdModule  = FT:1210;
+IdModule  = SMD_Packages:SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D9B7A7;
 Reference = C2;
 ValeurCmp = 100nF 25V;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D952E1;
 Reference = C3;
 ValeurCmp = 27pF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D94C0A;
 Reference = C4;
 ValeurCmp = 8.2nF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D91537;
 Reference = C5;
 ValeurCmp = 100nF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E890F5;
 Reference = C6;
 ValeurCmp = 1uF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D93FDF;
 Reference = C7;
-ValeurCmp = 10uF;
-IdModule  = FT:1210;
+ValeurCmp = 22uF Ceramic <2mΩ;
+IdModule  = SMD_Packages:SM1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D9CB77;
 Reference = C8;
-ValeurCmp = 10uF;
+ValeurCmp = 68uF 16V Electro <30mΩ;
 IdModule  = FT:CAP_ELECTRO_SMT_D;
 EndCmp
 
@@ -60,56 +60,56 @@ BeginCmp
 TimeStamp = /52A09BE3;
 Reference = C9;
 ValeurCmp = 100nF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52A091F0;
 Reference = C10;
 ValeurCmp = 22pF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52A091E1;
 Reference = C11;
 ValeurCmp = 22pF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /5326730A;
 Reference = C12;
 ValeurCmp = 100nF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /5326C02E;
 Reference = C13;
 ValeurCmp = 1uF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /5326C659;
 Reference = C14;
 ValeurCmp = 1uF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /534F675B;
 Reference = C15;
 ValeurCmp = 1nF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /53505597;
 Reference = C16;
 ValeurCmp = 100nF;
-IdModule  = FT:SM0603_Capa;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -256,21 +256,21 @@ BeginCmp
 TimeStamp = /52D9937D;
 Reference = R1;
 ValeurCmp = 75K 5%;
-IdModule  = FT:SM0603;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /532672DF;
 Reference = R2;
 ValeurCmp = 10K;
-IdModule  = FT:SM0603;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /52A055D3;
 Reference = R3;
 ValeurCmp = 10K;
-IdModule  = FT:SM0603;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
@@ -284,14 +284,14 @@ BeginCmp
 TimeStamp = /52D9354C;
 Reference = R5;
 ValeurCmp = 10.5K 1%;
-IdModule  = FT:SM0603;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D9355B;
 Reference = R6;
 ValeurCmp = 2K 1%;
-IdModule  = FT:SM0603;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
@@ -319,49 +319,56 @@ BeginCmp
 TimeStamp = /52A09357;
 Reference = R10;
 ValeurCmp = 1M;
-IdModule  = FT:SM0603;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /532672F1;
 Reference = R11;
 ValeurCmp = 10K;
-IdModule  = FT:SM0603;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53321CD2;
 Reference = R12;
 ValeurCmp = R0.5 1/8W;
-IdModule  = FT:SM0603;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534F674C;
 Reference = R13;
 ValeurCmp = 47k;
-IdModule  = FT:SM0603;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534FC8AD;
 Reference = R14;
 ValeurCmp = 330K 5%;
-IdModule  = FT:SM0603;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53501E52;
 Reference = R15;
-ValeurCmp = 220K;
-IdModule  = FT:SM0603;
+ValeurCmp = 200K;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5350056D;
 Reference = R16;
-ValeurCmp = 220K;
-IdModule  = FT:SM0603;
+ValeurCmp = 200K;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53915E3C;
+Reference = R17;
+ValeurCmp = 50R;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
