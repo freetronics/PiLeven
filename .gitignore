@@ -1,0 +1,6 @@
+*-bak
+*.bak
+*.svg
+*~
+*.ps
+output
